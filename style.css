@@ -1,4 +1,8 @@
 /* Menu responsivo */
+html {
+  overflow: auto;
+}/*isso aqui muda tudo */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +26,8 @@ a:hover {
 }
 
 nav {
+  overflow-x: hidden;
+  overflow-y: scroll; /*  isso aqui tb vai que né*/
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,11 +64,11 @@ nav {
     overflow-x: hidden;
   }
   .nav-list {
-    position: absolute;
+    position: fixed; /* isso aqui tem que tar fixo */
     z-index: 999;
     top: 8vh;
     right: 0;
-    width: 50vw;
+    width: 100vw;
     height: 92vh;
     background: #23232e;
     flex-direction: column;

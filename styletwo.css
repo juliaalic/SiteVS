@@ -169,6 +169,27 @@ section.module.parallax h1{
     padding: 0px;
   }
 }
+section.footer {
+  padding: 40px 0;
+  background: #fff;
+}
 
+.about a {
+  color: rgb(255, 81, 0);
+ }
+
+.about {
+  text-align: center;
+  font-family: "Times New Roman",serif;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about h3 {
+  line-height: 3.4;
+  margin-bottom: 15px;
+}
 
 /* Fim parallax e texto */
